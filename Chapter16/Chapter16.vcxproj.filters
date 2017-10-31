@@ -14,4 +14,54 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PopuResearch.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoDimArrayAddr.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoDimArrayInit.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeDimArraySize.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeDimArrayAccess.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DoublePointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DoublePointerSwapSuccess.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerSwapFailed.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerArray.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerArrayType.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2DarrPointerOp.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2DArrayNameAndArrPtr.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrPtrAndPtrArr.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2DArrParam.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2DArrAccessType.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

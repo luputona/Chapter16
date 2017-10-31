@@ -18,6 +18,24 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2DArrAccessType.c" />
+    <ClCompile Include="2DArrayNameAndArrPtr.c" />
+    <ClCompile Include="2DArrParam.c" />
+    <ClCompile Include="2DarrPointerOp.c" />
+    <ClCompile Include="ArrPtrAndPtrArr.c" />
+    <ClCompile Include="DoublePointer.c" />
+    <ClCompile Include="DoublePointerSwapSuccess.c" />
+    <ClCompile Include="PointerArray.c" />
+    <ClCompile Include="PointerArrayType.c" />
+    <ClCompile Include="PointerSwapFailed.c" />
+    <ClCompile Include="PopuResearch.c" />
+    <ClCompile Include="ThreeDimArrayAccess.c" />
+    <ClCompile Include="ThreeDimArraySize.c" />
+    <ClCompile Include="TwoDimArrayAddr.c" />
+    <ClCompile Include="TwoDimArrayInit.c" />
+    <ClCompile Include="소스.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{42EC29BE-6F24-44F3-837B-BC44F36138D1}</ProjectGuid>
@@ -76,6 +94,9 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -110,8 +131,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
